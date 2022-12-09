@@ -20,7 +20,7 @@ The savedmodels folder contains 4 saved models for the 4 fine-tuned dataset. Mod
 #### Train, test, val
 The Train, test, val dataset is for each NN to train. The pictures inside are with mask faces which are already cropped. 
 
-The above three datasets are too big to upload, which can be seen in the link.
+The above three datasets are too big to upload, which can be seen in the google drive link.
 
 ### ipynb files and python functions
 BadPredictionCheck.ipynb is to check the wrongly classified pictures \\
@@ -44,6 +44,9 @@ FinetuneVGG16.ipynb fine tunes VGG16 using the wearing-after-cropping faces for 
 TrainWithDataAugmentation.ipynb applies data augmentation on our original dataset and uses InceptionResnet v1 for training.\\
 
 generate_nontarget_data.ipynb is to generate the faces in the categories off the chosen faces, but in the whole LFW dataset for our exponential margin theory.\\
+
+### csv files
+The train, test, val files contains the file directory of each pics which are selected by us and the labels.
 
 
 
