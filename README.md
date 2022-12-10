@@ -45,6 +45,8 @@ TrainWithDataAugmentation.ipynb applies data augmentation on our original datase
 
 generate_nontarget_data.ipynb is to generate the faces in the categories off the chosen faces, but in the whole LFW dataset for our exponential margin theory.\\
 
+Exponential Margin: using confidence score on target and non-target set, and finding the exponential margin.\
+
 ### csv files
 The train, test, val files contains the file directory of each pics which are selected by us and the labels.
 
