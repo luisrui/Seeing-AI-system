@@ -1,4 +1,5 @@
 # Seeing-AI-system
+## All Right Reserved
 A system of recognizing masked people's face. 
 
 ### Files with specifications
