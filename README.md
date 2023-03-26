@@ -2,8 +2,7 @@
 ## All Right Reserved
 A system of recognizing masked people's face. 
 
-##
-The paper of the code is as well uploaded in the repo as masked_unmasked_face_recognition.pdf
+## The paper of the code is as well uploaded in the repo as masked_unmasked_face_recognition.pdf
 
 ### Files with specifications
 #### Appendix Folder
