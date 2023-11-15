@@ -1,8 +1,6 @@
 # Seeing-AI-system
-## All Right Reserved
 A system of recognizing masked people's face. 
-
-## The paper of the code is as well uploaded in the repo as masked_unmasked_face_recognition.pdf
+## Code for the paper Masked Face Dataset Generation and Masked Face Recognition[https://arxiv.org/abs/2311.07475]
 
 ### Files with specifications
 #### Appendix Folder
