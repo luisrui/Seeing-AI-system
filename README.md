@@ -2,6 +2,9 @@
 A system of recognizing masked people's face. 
 ## Code for the paper Masked Face Dataset Generation and Masked Face Recognition[https://arxiv.org/abs/2311.07475]
 
+![image](https://github.com/luisrui/Seeing-AI-system/assets/72402625/d3b4255c-dde5-430d-b9b0-0ea838df87bb)
+masked face generation and recognition
+
 ### Files with specifications
 #### Appendix Folder
 This contains three supporting files for preprocessing procedure.
