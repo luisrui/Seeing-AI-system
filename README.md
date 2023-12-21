@@ -12,8 +12,7 @@ This contains three supporting files for preprocessing procedure.
 
 Our cropped and masked-face dataset, augmented training set, and their corresponding label csv files have been uploaded to Google Drive, the link to the Google Drive: \url{ https://drive.google.com/drive/folders/1GvQS-xWG699w6QhPKdgc0-7fSdQWxBCo?usp=share_link}.
 
-Our saved models can be find on Google Cloud: https://drive.google.com/
-drive/folders/1pwvN32jLg7875TgLzMftVG3_WfG_y95o?usp=share_link.
+Our saved models can be find on Google Cloud: https://drive.google.com/drive/folders/1pwvN32jLg7875TgLzMftVG3_WfG_y95o?usp=share_link.
 
 The original LFW can be downloaded from Kaggle.
 
