@@ -27,7 +27,7 @@ The Train, test, val dataset is for each NN to train. The pictures inside are wi
 
 The above three datasets are too big to upload, which can be seen in the google drive link.
 
-### ipynb files and python functions
+### ipynb files in tutorials
 BadPredictionCheck.ipynb is to check the wrongly classified pictures 
 
 CreateCropFace.ipynb is to generate the train, test, val three dataset from the original LFW face dataset.
