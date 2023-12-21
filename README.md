@@ -3,8 +3,8 @@ A system of recognizing masked people's face.
 ## Code for the paper Masked Face Dataset Generation and Masked Face Recognition[https://arxiv.org/abs/2311.07475]
 
 ![image](https://github.com/luisrui/Seeing-AI-system/assets/72402625/d3b4255c-dde5-430d-b9b0-0ea838df87bb)
-masked face generation and recognition
 
+masked face generation and recognition
 ### Files with specifications
 #### Appendix Folder
 This contains three supporting files for preprocessing procedure.
@@ -29,29 +29,29 @@ The Train, test, val dataset is for each NN to train. The pictures inside are wi
 The above three datasets are too big to upload, which can be seen in the google drive link.
 
 ### ipynb files and python functions
-BadPredictionCheck.ipynb is to check the wrongly classified pictures \\
+BadPredictionCheck.ipynb is to check the wrongly classified pictures 
 
-CreateCropFace.ipynb is to generate the train, test, val three dataset from the original LFW face dataset.\\
+CreateCropFace.ipynb is to generate the train, test, val three dataset from the original LFW face dataset.
 
-Cropped Upper Half Rec.ipynb\\
+Cropped Upper Half Rec.ipynb
 
-DatasetGeneration.ipynb is the procedure for selecting 50 categories which is suitable for our masked face recognition model. \\
+DatasetGeneration.ipynb is the procedure for selecting 50 categories which is suitable for our masked face recognition model. 
 
-Eigenface.ipynb contains the procedure of generating eigenfaces and using eigenface method for face recognition.\\
+Eigenface.ipynb contains the procedure of generating eigenfaces and using eigenface method for face recognition.
 
-TrainwithInceptionResnet.ipynb fine tunes InceptionResnet v1 using the wearing-after-cropping faces for training.\\
+TrainwithInceptionResnet.ipynb fine tunes InceptionResnet v1 using the wearing-after-cropping faces for training.
 
-facecrop_train_dlib.ipynb uses the cropped faces with dlib DNN detection and get a poor result.\\
+facecrop_train_dlib.ipynb uses the cropped faces with dlib DNN detection and get a poor result.
 
-FinetuneResnet50.ipynb fine tunes Resnet50 using the wearing-after-cropping faces for training.\\
+FinetuneResnet50.ipynb fine tunes Resnet50 using the wearing-after-cropping faces for training.
 
-FinetuneVGG16.ipynb fine tunes VGG16 using the wearing-after-cropping faces for trianig.\\
+FinetuneVGG16.ipynb fine tunes VGG16 using the wearing-after-cropping faces for trianig.
 
-TrainWithDataAugmentation.ipynb applies data augmentation on our original dataset and uses InceptionResnet v1 for training.\\
+TrainWithDataAugmentation.ipynb applies data augmentation on our original dataset and uses InceptionResnet v1 for training.
 
-generate_nontarget_data.ipynb is to generate the faces in the categories off the chosen faces, but in the whole LFW dataset for our exponential margin theory.\\
+generate_nontarget_data.ipynb is to generate the faces in the categories off the chosen faces, but in the whole LFW dataset for our exponential margin theory.
 
-Exponential Margin: using confidence score on target and non-target set, and finding the exponential margin.\
+Exponential Margin: using confidence score on target and non-target set, and finding the exponential margin.
 
 ### csv files
 The train, test, val files contains the file directory of each pics which are selected by us and the labels.
